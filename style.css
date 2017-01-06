@@ -1,0 +1,135 @@
+/*
+Theme Name: Sa2Knight test Theme
+Theme URI: http://tk2-255-37407.vs.sakura.ne.jp/
+Author: Shingo Sasaki
+Author URI: http://tk2-255-37407.vs.sakura.ne.jp/
+Version: 1.0
+
+*/
+
+/* 基本設定 */
+body {
+  font-size: 14px;
+  font-family: Arial, Verdana;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding-bottom: 14px;
+  margin: 0;
+  line-height: 1.8;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* ヘッダー設定 */
+#header h1 {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+#header .menu {
+  background: #f39800;
+  margin-bottom: 30px;
+  font-size: 12px;
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+}
+
+#header .menu > li {
+  float: left;
+  width: 150px;
+  text-align: center;
+}
+
+#header .menu a {
+  padding 10px 0;
+  color: #fff;
+  display: block;
+}
+
+#header .menu a:hover {
+  background: #ffc35c;
+}
+
+/* 記事 */
+
+#posts {
+  float: left;
+  width: 550px;
+}
+
+#posts .post {
+  margin-bottom: 30px;
+}
+
+#posts .post .post-header {
+  margin-bottom: 15px;
+}
+
+#posts .post .post-header h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#posts .post .post-header .post-meta {
+  font-size: 12px;
+  padding: 7px 0;
+  color: #555;
+}
+
+#posts .post .post-content {
+  overflow: hidden;
+}
+
+#posts .post .post-content .post-image {
+  float: left;
+  width: 115px;
+}
+
+/* ナビゲーション */
+.navigation {
+  overflow: hidden;
+  padding: 10px 0;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.navigation .prev {
+  float: left;
+  width: 200px;
+}
+
+.navigation .next {
+  float: right:
+  width: 200px;
+  text-align: right;
+}
+
+/* サイドビュー */
+#sidebar {
+  word-wrap: break-word;
+  width; 150px;
+}
+
+#sidebar .widget {
+  margin-bottom: 25px;
+}
+
+#sidebar .widget h3 {
+  font-weight: bold;
+  padding-bottom: 7px;
+}
+
+#sidebar .widget li {
+  line-height: 1.8;
+}
